@@ -1,0 +1,81 @@
+<html>
+<body>
+<h1 style="background-color:violet;">Liver Patient prediction</h1>
+ <h2 style="background-color: yellow;">
+ <table>
+<td>
+<td width="300px">
+  <label for="name">Age:</label><br><br>
+  <input type="text" id="name" name="name"><br>
+  </td>
+ 
+ <td>
+ <label for="name">Gender:</label><br><br>
+  <input type="text" id="name"  placeholder="Enter 0 as male, 1 as female" name="name">
+  </td>
+  </tr>
+ 
+ <td>
+<td width="300px">
+  <label for="name">Total_Bilirubin:</label><br><br>
+  <input type="text" id="name" name="name"><br>
+  </td>
+ 
+ <td>
+ <label for="name">Direct_Bilirubin:</label><br><br>
+  <input type="text" id="lname" name="name">
+  </td>
+  </tr>
+ 
+ <td>
+<td width="300px">
+  <label for="name">Alkaline_Phosphotase:</label><br><br>
+  <input type="text" id="name" name="name"><br>
+  </td>
+ 
+ <td>
+ <label for="name">Alamine_Aminotransferase:</label><br><br>
+  <input type="text" id="lname" name="name">
+  </td>
+  </tr>
+ 
+<td>
+<td width="300px">
+  <label for="name">Alkaline_Phosphotase:</label><br><br>
+  <input type="text" id="name" name="name"><br>
+  </td>
+ 
+ <td>
+ <label for="name">Alamine_Aminotransferase:</label><br><br>
+  <input type="text" id="lname" name="name">
+  </td>
+  </tr>
+ 
+ <td>
+<td width="300px">
+  <label for="name">Aspartate_Aminotransferase:</label><br><br>
+  <input type="text" id="name" name="name"><br>
+  </td>
+ 
+ <td>
+ <label for="name">Total_Protiens:</label><br><br>
+  <input type="text" id="lname" name="name">
+  </td>
+  </tr>
+ 
+ <td>
+<td width="300px">
+  <label for="name">Albumin:</label><br><br>
+  <input type="text" id="name" name="name"><br>
+  </td>
+ 
+ <td>
+ <label for="name">Albumin_and_Globulin_Ratio:</label><br><br>
+  <input type="text" id="lname" name="name">
+  </td>
+  </tr>
+  </table>
+  <br>
+   <form action="predict">
+    <input type="submit" value="predict" />
+    </form>
